@@ -1,0 +1,14 @@
+{
+  "name": "hellonde",
+  "version": "1.0.0",
+  "description": "test project",
+  "main": "hellonode.js",
+  "scripts": {
+    "test": "node hellonode.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mongoose": "^5.7.0"
+  }
+}
