@@ -9,7 +9,7 @@ const server = http.createServer((req, res) => {
     res.end('Hello World\n');
 });
 
-mongoose.connect('mongodb+srv://kza-user-01:cn41DTerbPv2SIaQ@kza-cluster-01-vkvl2.gcp.mongodb.net/test?retryWrites=true&w=majority',
+mongoose.connect('',
     {useNewUrlParser: true, useUnifiedTopology: true});
 var db = mongoose.connection;
 db.on('error', console.error.bind(console, 'connection error:'));
