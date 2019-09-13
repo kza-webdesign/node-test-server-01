@@ -29,10 +29,10 @@ db.once('open', function () {
     var fluffy = new Kitten({name: 'fluffy'});
     silence.speak();
 
-    fluffy.save(function (err, fluffy) {
-        if (err) return console.error(err);
-        fluffy.speak();
-    });
+    // fluffy.save(function (err, fluffy) {
+    //     if (err) return console.error(err);
+    //     fluffy.speak();
+    // });
 
     Kitten.find(function (err, kittens) {
         if (err) return console.error(err);
